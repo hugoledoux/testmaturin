@@ -21,6 +21,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install maturin
+    - name: Install cargo night
+      run: |
+        rustup toolchain install nightly
     - name: Do the work mate
       run: |
         maturin build
