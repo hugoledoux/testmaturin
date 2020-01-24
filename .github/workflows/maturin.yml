@@ -58,7 +58,7 @@ jobs:
         maturin publish --no-sdist -u hledoux -p ${{ secrets. PASSWORD_TEST_PYPI }} -r https://test.pypi.org/legacy/
 
   Linux:
-    runs-on: linux-latest
+    runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
       matrix:
