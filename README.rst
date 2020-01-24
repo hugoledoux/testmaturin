@@ -6,8 +6,8 @@ startin_python
 
 Python bindings for `startin <https://github.com/hugoledoux/startin>`_, a Delaunay triangulator for the modelling of terrains.
 
-Installation
-------------
+Installations
+-------------
 
 **pip**
 
